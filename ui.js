@@ -11,7 +11,7 @@ class UI {
 
   		<a href="${user.html_url}" target="_blank">View Profile</a>
 
-  		<div class="followers">Followers ${user.followers}</div>
+  		<div class="followers">Nummber of Followers ${user.followers}</div>
   		<div class="repos">Repos ${user.public_repos}</div>
    		<a href="${user.blog}" target="_blank">View Blog</a>
 		</div>`;
