@@ -10,12 +10,12 @@ const userInput = document.getElementById("userInput");
 
 userInput.addEventListener("keyup", (e) => {
 	const value = e.target.value;
-	console.log(value);
+	// console.log(value);
 
 	if (value !== "") {
 		github.getUser(value).then((data) => {
 			ui.showProfile(data.profile);
-			console.log(data);
+			// console.log(data);
 		});
 	}
 });
