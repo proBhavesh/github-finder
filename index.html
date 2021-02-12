@@ -11,19 +11,33 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div class="top-bar">
-      <p class="top-bar-text">Github Finder</p>
-    </div>
+    <!-- complete page -->
     <div class="container">
-      <div class="pr-display">
-        <div class="primary-text">
-          <h1 class="heading">Search Github Users</h1>
-          <p class="heading-foot">Enter a username to get results</p>
+      <!-- nav-bar -->
+      <section class="top-bar">
+        <p class="top-bar-text">Github Finder</p>
+      </section>
+
+      <!-- first view and user input -->
+      <section class="c-query">
+        <div class="div-heading">
+          <p class="heading">Search Github users</p>
+          <p class="sub-heading">Enter a username to get results</p>
+          <input
+            type="text"
+            id="userInput"
+            placeholder="Enter the username..."
+          />
         </div>
-        <input type="text" id="userInput" placeholder="Enter the username..." />
-      </div>
-      <div class="data"></div>
+      </section>
+      <!-- user-profile as output -->
+      <section class="c-profile" id="profile"></section>
+
+      <!-- user-repos as output -->
+      <section class="c-repos"></section>
+
+      <!-- footer-text -->
+      <footer class="foot-text">Github Finder &copy;</footer>
     </div>
-    <footer class="foot-text">Github Finder &copy;</footer>
   </body>
 </html>

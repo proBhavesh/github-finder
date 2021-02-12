@@ -14,8 +14,8 @@ userInput.addEventListener("keyup", (e) => {
 
 	if (value !== "") {
 		github.getUser(value).then((data) => {
-			ui.showProfile(data.profile);
-			// console.log(data);
+			// ui.showProfile(data.profile);
+			console.log(data);
 		});
 	}
 });
