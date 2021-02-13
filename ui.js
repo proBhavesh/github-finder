@@ -10,10 +10,10 @@ class UI {
 			<a href="${user.profile.userhtml_url}">View Profile</a>
 		</div>
 		<div class="p-info">
-			<span class="btns">Followers: ${user.profile.followers}</span>
-			<span class="btns">Following: ${user.profile.following}</span>
-			<span class="btns">Public Repos: ${user.profile.public_repos}</span>
-			<span class="btns">Public Gists: ${user.profile.public_gists}</span>
+			<span class="btns btn1">Followers: ${user.profile.followers}</span>
+			<span class="btns btn2">Following: ${user.profile.following}</span>
+			<span class="btns btn3">Public Repos: ${user.profile.public_repos}</span>
+			<span class="btns btn4">Public Gists: ${user.profile.public_gists}</span>
 		</div>
 
 		<ul class="g-info">

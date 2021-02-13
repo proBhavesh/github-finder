@@ -44,7 +44,7 @@ body {
 	border-color: #e7e6e1;
 	padding-left: 1rem;
 	line-height: 1;
-	max-width: 70%;
+	max-width: 80%;
 	margin: auto;
 	margin-top: 2rem;
 	line-height: 1;
@@ -109,7 +109,7 @@ li {
 .c-profile {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	width: 70%;
+	width: 80%;
 	margin: auto;
 	margin-top: 5rem;
 	box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
@@ -119,9 +119,10 @@ li {
 
 /* styling dp */
 img {
-	width: 20rem;
+	width: 14rem;
 	height: auto;
-	border-radius: 50%;
+	border-radius: 1rem;
+	margin: 2rem;
 }
 
 /* dp and button */
@@ -140,19 +141,44 @@ img {
 	grid-column: 2/4;
 	grid-row: 1/2;
 	margin: 2rem;
-	
 }
 
+.btn1 {
+	background: #a0e7e5;
+}
+
+.btn2{
+	background: #B4F8C8;
+}
+
+.btn3{
+	background: #FBE7C6;
+}
+.btn4{
+	background: #FFAEBC;
+}
 /* info about user */
 .g-info {
 	grid-column: 2/4;
 	grid-row: 2/3;
-	}
+	margin: 0.8rem;
+}
 
-.btns{
-	background: red;
+/* p-info stats of the user button styling */
+.btns {
 	border-radius: 3px;
 	padding: 0.5rem;
 	margin: 1rem;
-		
+	box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+	
+}
+
+.list-items {
+	display: block;
+  font-weight: bold;
+	padding: 0.5rem;
+	border-radius: 5px;
+	margin: 1rem;
+	border-radius: 50px;
+	box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
