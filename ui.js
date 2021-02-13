@@ -17,10 +17,10 @@ class UI {
 		</div>
 
 		<ul class="g-info">
-			<li>Company ${user.profile.company}</li>
-			<li>Blog/Website ${user.profile.blog}</li>
-			<li>Location ${user.profile.location}</li>
-			<li>Joined On ${user.profile.created_at}</li>
+			<li class="list-items">Company ${user.profile.company}</li>
+			<li class="list-items">Blog/Website ${user.profile.blog}</li>
+			<li class="list-items">Location ${user.profile.location}</li>
+			<li class="list-items">Joined On ${user.profile.created_at}</li>
 		</ul>
 		`;
 	}
