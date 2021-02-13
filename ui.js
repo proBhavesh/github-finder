@@ -7,7 +7,7 @@ class UI {
 		this.profile.innerHTML = `
 		<div class="img-bt">
 			<img src="${user.profile.avatar_url}"/>
-			<a href="${user.profile.userhtml_url}">View Profile</a>
+			<a href="${user.profile.html_url}" target="_blank">View Profile</a>
 		</div>
 		<div class="p-info">
 			<span class="btns btn1">Followers: ${user.profile.followers}</span>

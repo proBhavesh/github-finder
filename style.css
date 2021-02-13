@@ -147,15 +147,15 @@ img {
 	background: #a0e7e5;
 }
 
-.btn2{
-	background: #B4F8C8;
+.btn2 {
+	background: #b4f8c8;
 }
 
-.btn3{
-	background: #FBE7C6;
+.btn3 {
+	background: #fbe7c6;
 }
-.btn4{
-	background: #FFAEBC;
+.btn4 {
+	background: #ffaebc;
 }
 /* info about user */
 .g-info {
@@ -170,15 +170,22 @@ img {
 	padding: 0.5rem;
 	margin: 1rem;
 	box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
-	
 }
 
 .list-items {
 	display: block;
-  font-weight: bold;
-	padding: 0.5rem;
-	border-radius: 5px;
+	font-weight: bold;
+	padding: 0.8rem;
 	margin: 1rem;
 	border-radius: 50px;
 	box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+a {
+	text-decoration: none;
+	background: #845ec2;
+	font-size: 1.4rem;
+	border-radius: 5px;
+	padding: 0.5rem;
+	color: white;
 }
