@@ -6,16 +6,30 @@ const github = new Github();
 
 const ui = new UI();
 
+// select input element
 const userInput = document.getElementById("userInput");
 
+// add event listener
 userInput.addEventListener("keyup", (e) => {
 	const value = e.target.value;
-	// console.log(value);
-
+	// if statement to check value
 	if (value !== "") {
 		github.getUser(value).then((data) => {
+			// if statement to check status
 			console.log(data);
-			ui.userProfile(data);
+			if (data.profile.message === "Not Found") {
+				console.log("Doesn't Exist");
+				ui.clearProfile();
+				ui.dontExist();
+			}
+			// else statement if passed
+			else {
+				ui.userProfile(data);
+			}
 		});
+	}
+	// adding else statement for clearprofile
+	else {
+		ui.clearProfile();
 	}
 });

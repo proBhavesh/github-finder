@@ -15,7 +15,7 @@ body {
 
 /*nav-bar*/
 .top-bar-text {
-	margin-left: 15%;
+	margin-left: 10%;
 	color: white;
 	font-weight: 600;
 }
@@ -101,10 +101,10 @@ body {
 /* Styling of api outputs */
 
 /* list styling */
-li {
+/*li {
 	list-style: none;
 }
-
+*/
 /* complete output div styling */
 .c-profile {
 	display: grid;
@@ -169,7 +169,8 @@ img {
 	border-radius: 3px;
 	padding: 0.5rem;
 	margin: 1rem;
-	box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+	/*box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;*/
+	display: inline;
 }
 
 .list-items {
@@ -188,4 +189,12 @@ a {
 	border-radius: 5px;
 	padding: 0.5rem;
 	color: white;
+}
+
+/*displaying err*/
+
+.nf {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
