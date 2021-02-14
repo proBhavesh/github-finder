@@ -27,14 +27,26 @@ class UI {
 	}
 
 	dontExist() {
+		this.clearAlert();
 		this.notFound.innerHTML = `
 		<div class="nf">
-			<p class="nfp">Not Found</p>
+			<p class="nfp alert">User doesn't exist...</p>
 		</div>
 		`;
+		setTimeout(() => {
+			this.clearAlert();
+		}, 500);
 	}
 
 	clearProfile() {
 		this.profile.innerHTML = "";
+	}
+
+	clearAlert() {
+		const currentAlert = document.querySelector(".alert");
+
+		if (currentAlert) {
+			currentAlert.remove();
+		}
 	}
 }

@@ -16,9 +16,9 @@ userInput.addEventListener("keyup", (e) => {
 	if (value !== "") {
 		github.getUser(value).then((data) => {
 			// if statement to check status
-			console.log(data);
+			// console.log(data);
 			if (data.profile.message === "Not Found") {
-				console.log("Doesn't Exist");
+				// console.log("Doesn't Exist");
 				ui.clearProfile();
 				ui.dontExist();
 			}
