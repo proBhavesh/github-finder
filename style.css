@@ -198,7 +198,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: red;
+	background: #f8d7da;
 	width: 40%;
 	margin: auto;
 	margin-top: 1rem;
@@ -208,4 +208,36 @@ a {
 	transition: ease all 0.3;
 }
 
+/*styling buttons*/
+
+button {
+	border: none;
+	outline-style: none;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 0.3rem;
+}
+
 /*no selection*/
+
+@media only screen and (max-width: 641px) {
+	.c-profile {
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+	.img-bt {
+		grid-column: 1/4;
+		grid-row: 1/2;
+	}
+	.p-info {
+		grid-column: 1/4;
+		grid-row: 2/3;
+	}
+	.g-info {
+		grid-column: 1/4;
+		grid-row: 3/4;
+	}
+	.btns {
+		display: block;
+	}
+}
