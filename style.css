@@ -168,10 +168,9 @@ img {
 /* p-info stats of the user button styling */
 .btns {
 	border-radius: 3px;
-	padding: 0.5rem;
-	margin: 1rem;
 	/*box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;*/
 	display: inline;
+	padding: 0.1rem;
 }
 
 .list-items {
@@ -198,7 +197,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #f8d7da;
+	background: #e86975;
 	width: 40%;
 	margin: auto;
 	margin-top: 1rem;
